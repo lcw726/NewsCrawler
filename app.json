@@ -1,0 +1,57 @@
+{
+	"receivers" : ["zehui@ntc.com.tw","joyinhung@ntc.com.tw","sandraliu@ntc.com.tw","lcw726@ntc.com.tw"],
+	"ntcInclude": [["Asia 300","Nanya"],"南亞科","nanya technology","NTC",["南亞科","道瓊"],["南亞科","MSCI"]],
+	"memInclude" : [["三星","記憶"],["三星","DRAM"],["Samsung","DRAM"],["Samsung","memory"],"力晶","力積電","Changxin Memory","Yangtze Memory","CXMT","長鑫儲存","美光","海力士","華邦","sk hynix","micron","windbond","dram","nand","sram","rram","mram","長江存儲","福建晉華","晉華集成",["紫光","記憶"],"記憶體",["DRAM","1x"],["DRAM","1y"],["DRAM","1z"],"合肥長鑫","YMTC","JHICC",["Tsinghua","DRAM"]],
+	"semiInclude" : ["半导体","semiconductor","半導體","EUV","先進製程","台積電","三星","samsung","10奈米","20奈米"],
+	"indInclude" : ["trade war",["trump","china"],"華為","中興","美中貿易","中美貿易","日韓",["川普","習近平"],["AI","5G"],["5G","晶片"],"任正非",["AI","Semi"],["AI","半導體"],["AI","晶圓"],"伺服器","資料中心"],
+
+	"smgInclude" : ["dram","DDR","1x","1y","1z",["Quarter","Results"],"EUV","nand","data center","memory","intro","new","develop","earnings guidance","SSD","HDD"],
+	"hynixInclude" : ["dram","DDR","1x","1y","1z",["Quarter","Results"],"EUV","nand","data center","memory","intro","new","develop","SSD","HDD"],
+	"micronInclude" : ["dram","DDR","1x","1y","1z",["Quarter","Results"],"EUV","nand","data center","memory","introduction","introduce","new","develop","SSD","HDD"],
+
+	"exclude" : ["IC測試","個股期貨","cmos","sensors","LED","檢測場","生醫","塑膠","勞工","零售業","石油",["三星","NOTE"],
+	"醫療",["小米","9S"],["5G","天線"],"默克集團","幸福都市","Qorvo","Mate X","鋰電池","Displays","Air Purifiers",
+    "Galaxy Fold","貿易戰日日報","指紋辨識",["中美","大豆"],["LED","燈"],"美容","旅遊","Samsung SDI Co",
+    "Samsung Engineering Co","Samsung C&T Corp","Samsung Electro-Mechanics","漢磊",["VC散熱板","手機"],
+    ["手機","旋轉式相機"],"三星電機","景碩",["昇陽半","重登","元"],["股市","盤中焦點股","元"],["股市","長線利基","元"],
+    "半導體廠安森美","Canon",["美股盤","降息"],["基點","人民幣","開盤"],["台積電","市值"],["亞股","美股"],["影像","感測器"],
+    "化學電池","信錦"," 三星蔥",["米其林","三星"],"石油","金價",["三星","Android"],["三星","摺疊機"],["智慧","病床"],"美股小漲",
+    "Samsung Securities","Renault Samsung","永昕","LINE Pay",["stocks fall","trade war"],["stocks fall","China"],["三星","手機","價格"],"劉德華"],
+
+	"articleExclude" : ["Mate 20X","iPhone 11","鋰離子電池","有機EL面板","液晶面板","domoco","國際貨幣基金組織","indoor air quality","Samsung KX",
+    "Galaxy","LCD電視", "指紋辨識",["台股","股民"],["雙11","購物"],"優惠活動","台股收盤上漲",["美國存託憑證","ADR"],["LME","金屬交易所"],"Swiss franc"],
+	
+	"sites":
+	[
+		{
+			"Source" : "TechNews",
+			"URL" : "https://technews.tw/page/1/",
+			"Method" : "articleCrawler",
+			"contentType" : "article",
+			"titleType" : "a",
+			"titleClass" : "",
+			"hrefType": "a",
+			"isRelHref" : false
+		},
+		{
+			"Source" : "TechNews",
+			"URL" : "https://technews.tw/page/2/",
+			"Method" : "articleCrawler",
+			"contentType" : "article",
+			"titleType" : "a",
+			"titleClass" : "",
+			"hrefType": "a",
+			"isRelHref" : false
+		},
+		{
+			"Source" : "TechNews",
+			"URL" : "https://technews.tw/page/3/",
+			"Method" : "articleCrawler",
+			"contentType" : "article",
+			"titleType" : "a",
+			"titleClass" : "",
+			"hrefType": "a",
+			"isRelHref" : false
+		}
+	]
+}
